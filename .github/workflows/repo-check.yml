@@ -1,0 +1,30 @@
+name: Verificări depozit
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verificari:
+    if: ${{ !github.event.repository.is_template }}   # nu rulează în șablonul din cursuri-inf, doar în depozitele create din el
+    name: Structură, dimensiuni, secrete, livrabile
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      - name: Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Rulează verificările
+        # Verificările de bază (structură, fișiere mari, secrete) opresc workflow-ul.
+        # Verificările pe livrabile (T3-T6) doar avertizează, ca să vedeți ce mai lipsește.
+        run: python scripts/check_repo.py --stage all

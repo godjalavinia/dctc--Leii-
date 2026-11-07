@@ -1,0 +1,65 @@
+name: Notebook reproductibil
+
+on:
+  push:
+    paths:
+      - "notebooks/analiza.ipynb"
+      - "data/**"
+      - ".github/workflows/notebook-check.yml"
+  pull_request:
+    paths:
+      - "notebooks/analiza.ipynb"
+      - "data/**"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  ruleaza-notebook:
+    if: ${{ !github.event.repository.is_template }}   # nu rulează în șablonul din cursuri-inf, doar în depozitele create din el
+    name: Rulează notebooks/analiza.ipynb de la zero
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v7
+
+      - name: Notebook-ul există?
+        id: exista
+        run: |
+          if [ -f notebooks/analiza.ipynb ]; then
+            echo "gasit=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "gasit=false" >> "$GITHUB_OUTPUT"
+            echo "::warning::notebooks/analiza.ipynb nu există încă (necesar la T5)."
+          fi
+
+      - name: Python
+        if: steps.exista.outputs.gasit == 'true'
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+
+      - name: Dependențe
+        if: steps.exista.outputs.gasit == 'true'
+        run: |
+          python -m pip install --upgrade pip
+          pip install jupyter nbconvert ipykernel pandas numpy matplotlib requests
+
+      - name: Execută notebook-ul
+        if: steps.exista.outputs.gasit == 'true'
+        run: |
+          jupyter nbconvert --to notebook --execute notebooks/analiza.ipynb \
+            --output-dir "$RUNNER_TEMP" --output analiza-executat.ipynb \
+            --ExecutePreprocessor.timeout=600
+
+      - name: Dimensiunea notebook-ului
+        if: steps.exista.outputs.gasit == 'true'
+        run: |
+          dim=$(stat -c %s notebooks/analiza.ipynb)
+          echo "Dimensiune: $dim octeți"
+          if [ "$dim" -gt 2000000 ]; then
+            echo "::error::notebooks/analiza.ipynb depășește 2 MB; curățați rezultatele (Edit > Clear all outputs) înainte de commit."
+            exit 1
+          fi

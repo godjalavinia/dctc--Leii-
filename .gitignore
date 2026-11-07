@@ -1,0 +1,36 @@
+# Python și Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# LaTeX (fișiere generate; PDF-ul exportat din Overleaf se păstrează în report/)
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+
+# Secrete și configurări locale
+.env
+.env.*
+*.pem
+*.key
+secrets.*
+
+# Sistem de operare și editoare
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# Arhive și fișiere mari
+*.zip
+*.rar
+*.7z
