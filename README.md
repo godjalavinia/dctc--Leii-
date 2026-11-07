@@ -1,4 +1,4 @@
-# Proiect DCTC: `<numele echipei>`
+# Proiect DCTC: Leii
 
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/<utilizator>/<depozit>/blob/main/notebooks/analiza.ipynb)
 [![Verificări depozit](../../actions/workflows/repo-check.yml/badge.svg)](../../actions/workflows/repo-check.yml)
@@ -10,10 +10,10 @@ Disciplina *Dezvoltare colaborativă și tehnologii cloud* (DCTC), Universitatea
 
 | Nume și prenume | Utilizator GitHub | Program | Rol inițial (s3-s6) | Rol 2 (s6-s10) | Rol 3 (s10-s14) |
 | --- | --- | --- | --- | --- | --- |
-| `<Nume Prenume>` | `<utilizator>` | MI / INF | coordonator | | |
-| `<Nume Prenume>` | `<utilizator>` | MI / INF | responsabil depozit | | |
-| `<Nume Prenume>` | `<utilizator>` | MI / INF | responsabil raport | | |
-| `<Nume Prenume>` | `<utilizator>` | MI / INF | responsabil date și notebook | | |
+| Hales Roberto Adrian | robertohales | MI | coordonator | | |
+| Godja Lavinia | godjalavinia | MI | responsabil depozit | | |
+| Chiuzbăian David | davidchiuzbaian8 | MI | responsabil raport | | |
+| Cîmpean Roxana Nicoleta | roxanacimpean | MI | responsabil date și notebook | | |
 
 ## Tema
 
