@@ -17,9 +17,9 @@ Disciplina *Dezvoltare colaborativă și tehnologii cloud* (DCTC), Universitatea
 
 ## Tema
 
-**Tema nr. `<n>`: `<titlul temei>`**
+**Tema nr. 8 : Numere prime**
 
-Întrebarea studiului: `<o singură propoziție, cu semnul întrebării la final>`
+Întrebarea studiului: Ce sunt acelea numere prime?
 
 Sursa datelor: vedeți [`data/README.md`](data/README.md).
 
