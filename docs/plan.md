@@ -18,7 +18,7 @@ Fiecare membru adaugă secțiunea proprie pe o ramură `feature/utilizator-plan`
 
 `<...>`
 
-## `<Nume Prenume>` (`<utilizator>`), responsabil date și notebook
+
 
 ## Cîmpean Roxana Nicoleta (`roxanacimpean`), responsabil date și notebook
 
