@@ -10,9 +10,11 @@ Fiecare membru adaugă secțiunea proprie pe o ramură `feature/utilizator-plan`
 
 `<...>`
 
-## `<Nume Prenume>` (`<utilizator>`), responsabil depozit
+## Godja Lavinia (godjalavinia), responsabil depozit
 
-`<...>`
+Până la T4 voi contribui la documentarea temei alese. Voi indentifica surse de date relevante. Voi folosi diferite aplicații pentru explorarea datelor. 
+Până la T5 voi pregăti prelucrarea datelor și. Voi verifica informațiile și datele incorecte.
+Până la T6 voi analiza rezultatele obținute. Voi contribui la formularea concluziilor.
 
 ## `<Nume Prenume>` (`<utilizator>`), responsabil raport
 
