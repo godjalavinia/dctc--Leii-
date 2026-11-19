@@ -13,7 +13,7 @@ Disciplina *Dezvoltare colaborativă și tehnologii cloud* (DCTC), Universitatea
 | Hales Roberto Adrian | robertohales | MI | coordonator | | |
 | Godja Lavinia | godjalavinia | MI | responsabil depozit | | |
 | Chiuzbăian David | davidchiuzbaian8 | MI | responsabil raport | | |
-| Cîmpean Roxana Nicoleta | roxanacimpean | MI | responsabil date și notebook | responsabil date și notebook | responsabil date și notebook |
+| Cîmpean Roxana Nicoleta | roxanacimpean | MI | responsabil date și notebook | responsabil raport | responsabil depozit |
 
 ## Tema
 
