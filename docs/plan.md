@@ -4,11 +4,11 @@ Fiecare membru adaugă secțiunea proprie pe o ramură `feature/utilizator-plan`
 
 ## Tema și întrebarea studiului
 
-`<Coordonatorul: tema aleasă, întrebarea, de ce ați ales-o, sursa datelor.>`
+`<Coordonatorul: Tema aleasa sunt numerele prime, întrebarea este "De ce ati ales numerele prime", La toti ne plac numerele prime, Intregul browser.>`
 
-## `<Nume Prenume>` (`<utilizator>`), coordonator
+## Roberto Hales  (`<robertohales>`), coordonator
 
-`<...>`
+ Roberto Hales. În calitate de coordonator al echipei, am responsabilitatea de a organiza și de a coordona activitățile membrilor. Împart sarcinile în funcție de abilitățile fiecăruia și mă asigur că obiectivele sunt îndeplinite. Încerc să comunic eficient cu toți colegii și să le ascult opiniile. Îi sprijin atunci când întâmpină dificultăți și caut soluții pentru problemele apărute. De asemenea, încerc să mențin o atmosferă plăcută și bazată pe respect. Prin implicare, seriozitate și responsabilitate, contribui la buna colaborare și la succesul echipei. 
 
 ## `<Nume Prenume>` (`<utilizator>`), responsabil depozit
 

@@ -10,7 +10,7 @@ Disciplina *Dezvoltare colaborativă și tehnologii cloud* (DCTC), Universitatea
 
 | Nume și prenume | Utilizator GitHub | Program | Rol inițial (s3-s6) | Rol 2 (s6-s10) | Rol 3 (s10-s14) |
 | --- | --- | --- | --- | --- | --- |
-| Hales Roberto Adrian | robertohales | MI | coordonator | | |
+| Hales Roberto Adrian | robertohales | MI | coordonator | responsabil depozit | responsabil date si notebook |
 | Godja Lavinia | godjalavinia | MI | responsabil depozit | | |
 | Chiuzbăian David | davidchiuzbaian8 | MI | responsabil raport | | |
 | Cîmpean Roxana Nicoleta | roxanacimpean | MI | responsabil date și notebook | | |
