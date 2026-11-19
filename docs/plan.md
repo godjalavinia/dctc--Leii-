@@ -18,9 +18,16 @@ Fiecare membru adaugă secțiunea proprie pe o ramură `feature/utilizator-plan`
 
 `<...>`
 
-## `<Nume Prenume>` (`<utilizator>`), responsabil date și notebook
 
-`<...>`
+
+## Cîmpean Roxana Nicoleta (`roxanacimpean`), responsabil date și notebook
+
+- Până la T4, stabilesc cu echipa ce intervale de numere analizăm.
+- Pregătesc un notebook în Google Colab și notez cum obținem datele.
+- Până la T5, folosesc Python pentru a număra numerele prime din fiecare interval.
+- Verific rezultatele pe intervale mici, unde pot face și calculul manual.
+- Până la T6, rulez notebook-ul de la început și verific dacă rezultatele coincid cu cele din raport.
+- Un risc este să numărăm greșit capetele intervalelor sau să tratăm numărul 1 ca prim. Verific separat aceste cazuri.
 
 ## Calendarul echipei
 
