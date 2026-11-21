@@ -23,7 +23,7 @@ Disciplina *Dezvoltare colaborativă și tehnologii cloud* (DCTC), Universitatea
 
 **Tema nr. 8 : Numere prime**
 
-Întrebarea studiului: Ce sunt acelea numere prime?
+Întrebarea studiului: Cum putem identifica numerele prime și analiza distribuția lor într-un interval de numere naturale?
 
 Sursa datelor: vedeți [`data/README.md`](data/README.md).
 
