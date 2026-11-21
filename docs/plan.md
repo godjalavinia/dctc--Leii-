@@ -4,23 +4,32 @@ Fiecare membru adaugă secțiunea proprie pe o ramură `feature/utilizator-plan`
 
 ## Tema și întrebarea studiului
 
-`<Coordonatorul: tema aleasă, întrebarea, de ce ați ales-o, sursa datelor.>`
+`<Coordonatorul: Tema aleasa sunt numerele prime, întrebarea este "De ce ati ales numerele prime", La toti ne plac numerele prime, Intregul browser.>`
 
-## `<Nume Prenume>` (`<utilizator>`), coordonator
+## Roberto Hales  (`<robertohales>`), coordonator
 
-`<...>`
+ Roberto Hales. În calitate de coordonator al echipei, am responsabilitatea de a organiza și de a coordona activitățile membrilor. Împart sarcinile în funcție de abilitățile fiecăruia și mă asigur că obiectivele sunt îndeplinite. Încerc să comunic eficient cu toți colegii și să le ascult opiniile. Îi sprijin atunci când întâmpină dificultăți și caut soluții pentru problemele apărute. De asemenea, încerc să mențin o atmosferă plăcută și bazată pe respect. Prin implicare, seriozitate și responsabilitate, contribui la buna colaborare și la succesul echipei. 
 
-## `<Nume Prenume>` (`<utilizator>`), responsabil depozit
+## Godja Lavinia (godjalavinia), responsabil depozit
 
-`<...>`
+Până la T4 voi contribui la documentarea temei alese. Voi indentifica surse de date relevante. Voi folosi diferite aplicații pentru explorarea datelor. 
+Până la T5 voi pregăti prelucrarea datelor și. Voi verifica informațiile și datele incorecte.
+Până la T6 voi analiza rezultatele obținute. Voi contribui la formularea concluziilor.
 
 ## `<Nume Prenume>` (`<utilizator>`), responsabil raport
 
 `<...>`
 
-## `<Nume Prenume>` (`<utilizator>`), responsabil date și notebook
 
-`<...>`
+
+## Cîmpean Roxana Nicoleta (`roxanacimpean`), responsabil date și notebook
+
+- Până la T4, stabilesc cu echipa ce intervale de numere analizăm.
+- Pregătesc un notebook în Google Colab și notez cum obținem datele.
+- Până la T5, folosesc Python pentru a număra numerele prime din fiecare interval.
+- Verific rezultatele pe intervale mici, unde pot face și calculul manual.
+- Până la T6, rulez notebook-ul de la început și verific dacă rezultatele coincid cu cele din raport.
+- Un risc este să numărăm greșit capetele intervalelor sau să tratăm numărul 1 ca prim. Verific separat aceste cazuri.
 
 ## Calendarul echipei
 
